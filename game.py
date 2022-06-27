@@ -10,7 +10,7 @@ from aiogram.utils.callback_data import CallbackData
 from aiogram.dispatcher.filters import Text
 import json
 import requests
-from forfun.databasegame import DatBase
+from databasegame import DatBase
 from testjson import all_to_Json
 
 db = DatBase()
